@@ -4,9 +4,6 @@
        {
            header("Location:Login.php");  
        }
-
-          //echo $_SESSION['use'];
-
 ?>
 <script>
     function validateForm() {

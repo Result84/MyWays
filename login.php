@@ -1,5 +1,4 @@
 <?php  session_start(); ?>
-
 <?php
 
 if(isset($_SESSION['use']))   // Checking whether the session is already there or not if 
@@ -41,11 +40,6 @@ if(isset($_POST['login']))   // it checks whether the user clicked login button 
 
   
       <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      /*still in the works :P*/
-/*variables*/
-/*general style*/
-/*google font*/
 @import "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700)";
 body {
   font: 13px/20px "Open Sans", Tahoma, Verdana, sans-serif;
